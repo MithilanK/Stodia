@@ -49,4 +49,4 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
 
     finaltxt = securetxt + googletxt + virustxt;
 
-    resultDiv.innerHTML = finaltxt
+    resultDiv.innerHTML = finaltxt;
