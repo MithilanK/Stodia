@@ -1,0 +1,76 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    padding:0px;
+}
+
+.title {
+    padding-top: 2.5%;
+    padding-left: 10%;
+    font-size: 15vh;
+    text-shadow: 0vw .3vh .2vh #7d7d7d;
+    padding-bottom:0px;
+    font-weight: 800;
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.subtitle {
+    padding-top: 2%;
+    padding-left: 10%;
+    font-size: 4vh;
+    text-shadow: 0vw .3vh .2vh  #7d7d7d;
+    padding-bottom:4%;
+    font-weight: 600;
+}
+.form {
+    padding-top: 0px;
+    padding-left: 10%;
+}
+
+.form input{
+    padding-left: 2.5vh;
+    text-shadow: 0vw .1vh .2vh #7d7d7d;
+    font-size:5vh;
+    width: 50vh;
+    height: 8vh;
+    border-radius: 50px;
+    border-width: 0px;
+    vertical-align: middle;
+    box-shadow: 0vw .3vh .2vh rgba(0, 0, 0, 0.3);
+}
+
+.form button {
+    border-width: 0px;
+    background-color: #3c78d8ff;
+    color:black;
+    border-radius: 100px;
+    width: 8vh;
+    box-shadow: 0vw .3vh .2vh rgba(0, 0, 0, 0.3);
+    font-size: 7vh; /* Set the desired font size relative to the viewport */
+    height: 8vh; /* Set the desired height relative to the viewport */
+    line-height: 0; /* Adjust the line-height as needed */
+    padding-left: 0 ; /* Adjust the padding to control the width */
+    box-sizing: border-box;
+    vertical-align: middle;
+
+}
+
+.form button:active {
+    background-color: #4685e8;
+}
+
+.result {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2.5vh;
+    border-radius: 50px;
+    box-shadow: 0vw .1vh .1vh rgba(0, 0, 0, 0.3);
+    margin-left:10%;
+    margin-right: 5%;
+    background-color: white;
+    font-size:3vh;
+    font-weight: 500;
+    text-shadow: 0vw .3vh .2vh  #7d7d7d;
+}
