@@ -49,5 +49,4 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
 
     finaltxt = securetxt + googletxt + virustxt;
 
-    resultDiv.innerHTML = VirusTotalscanWebsite(textValue);
-  });
+    resultDiv.innerHTML = finaltxt
